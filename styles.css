@@ -76,6 +76,7 @@ button {
 .profile-section {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 40px;
 }
 
@@ -92,6 +93,7 @@ h2 {
 }
 
 .quote-container {
+  display: flex;
   background: rgb(229 231 235);
   padding: 90px;
 }
@@ -124,10 +126,15 @@ h2 {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
   gap: 100px;
   background: rgb(59 130 246);
   padding: 35px 90px;
   border-radius: 5px;
+}
+
+.call-text {
+  min-width: 200px;
 }
 
 .call-button {
