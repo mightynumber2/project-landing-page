@@ -112,3 +112,24 @@ h2 {
   font-weight: bold;
   font-size: 1.1rem;
 }
+
+.action-container {
+  display: flex;
+  justify-content: center;
+  padding: 80px;
+  color: white;
+}
+
+.call-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 100px;
+  background: rgb(59 130 246);
+  padding: 35px 90px;
+  border-radius: 5px;
+}
+
+.call-button {
+  border-color: white;
+}
