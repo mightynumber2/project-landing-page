@@ -90,3 +90,25 @@ h2 {
   border-radius: 10px;
   text-align: center;
 }
+
+.quote-container {
+  background: rgb(229 231 235);
+  padding: 90px;
+}
+
+.quote-section {
+  width: 600px;
+  margin: auto;
+}
+
+.quote {
+  font-size: 1.7rem;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.author {
+  text-align: right;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
