@@ -133,3 +133,10 @@ h2 {
 .call-button {
   border-color: white;
 }
+
+footer {
+  text-align: center;
+  background: rgb(31 41 55);
+  color: white;
+  padding: 30px;
+}
